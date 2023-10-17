@@ -1,0 +1,120 @@
+.home__container {
+    display: flex;
+}
+
+.home__content {
+    background-color: #fff;
+    height: 935px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.home__content--detail {
+    margin-left: 129px;
+    margin-right: 129px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.home__content--img {
+    width: 310px;
+    height: 122px;
+}
+
+.home__content--desc {
+    margin-top: 30px;
+    background-color: #efefef;
+}
+
+.home__content--desc__title {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 38px;
+}
+
+.home__content--desc__content {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 38px;
+}
+
+.home__content--list {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+/* .home__content--item {
+
+} */
+
+.home__content--item__title {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.home__content--item__flex {
+    display: flex;
+}
+
+.home__content--item__img {
+    width: 128px;
+    height: 128px;
+}
+
+.home__content--item__content1, 
+.home__content--item__content2 {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    margin: 0;
+}
+
+@media only screen and (max-width: 1272px)  {
+    .home__content {
+        height: max-content;
+    }
+
+    .home__content--list {
+        flex-direction: column;
+    }
+
+    .home__content--desc__content {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (max-width: 992px)  {
+    .home__content--detail {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (max-width: 600px)  {
+    .home__container {
+        flex-direction: column;
+        margin-top: 44px;
+    }
+}

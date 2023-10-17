@@ -1,0 +1,23 @@
+.footer__container {
+    height: 79px;
+    padding-left: 129px;
+    display: flex;
+    align-items: center;
+    border: #dedede solid 1px;
+}
+
+.footer__content {
+    color: #3E3E3E;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media only screen and (max-width: 992px)  {
+    .footer__container {
+        height: 44px;
+        padding-left: 40px;
+    }
+}
